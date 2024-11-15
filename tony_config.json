@@ -1,0 +1,900 @@
+url:  https://platform.tonybet.lv/api/v2/configurations
+
+{
+    "status": "ok",
+    "code": 200,
+    "data": {
+      "sportsbook": {
+        "broadCastsEnabled": false,
+        "competitorLogoEnabled": false,
+        "ticketPrintEnabled": false,
+        "fastAmounts": {
+          "EUR": [
+            10,
+            5,
+            50,
+            100,
+            20
+          ],
+          "BRL": [
+            10,
+            1000,
+            50,
+            5,
+            20
+          ],
+          "CAD": [
+            10,
+            125,
+            50,
+            100,
+            500
+          ],
+          "CHF": [
+            10,
+            5,
+            100,
+            20,
+            50
+          ],
+          "CZK": [
+            5,
+            10,
+            1000,
+            500,
+            5000
+          ],
+          "HUF": [
+            1000,
+            500,
+            5000,
+            2000,
+            10000
+          ],
+          "INR": [
+            100,
+            500,
+            10,
+            50,
+            200
+          ],
+          "MYR": [
+            300,
+            100,
+            200,
+            10,
+            400
+          ],
+          "NOK": [
+            10,
+            50,
+            20,
+            100,
+            500
+          ],
+          "PLN": [
+            10,
+            100,
+            200,
+            50,
+            500
+          ],
+          "THB": [
+            200,
+            150,
+            100,
+            500,
+            50
+          ],
+          "UAH": [
+            200,
+            2000,
+            5000,
+            500,
+            1500
+          ],
+          "USD": [
+            50,
+            10,
+            5,
+            100,
+            20
+          ],
+          "CLP": [
+            1000,
+            500,
+            5000,
+            10000,
+            50000
+          ],
+          "IQD": [
+            1000,
+            5000,
+            10000,
+            50000,
+            100000
+          ],
+          "JPY": [
+            500,
+            1000,
+            5000,
+            10000,
+            15000
+          ],
+          "KES": [
+            5,
+            50,
+            100,
+            10,
+            500
+          ],
+          "MXN": [
+            10,
+            50,
+            500,
+            200,
+            1000
+          ],
+          "CNY": [
+            10,
+            50,
+            100,
+            500,
+            1000
+          ],
+          "NGN": [
+            50,
+            100,
+            500,
+            1000,
+            5000
+          ],
+          "VND": [
+            5000,
+            50000,
+            100000,
+            300000,
+            1000000
+          ],
+          "NZD": [
+            5,
+            10,
+            50,
+            100,
+            25
+          ],
+          "PEN": [
+            1,
+            5,
+            50,
+            100,
+            25
+          ],
+          "PKR": [
+            50,
+            100,
+            1000,
+            5000,
+            10000
+          ],
+          "RUB": [
+            50,
+            100,
+            500,
+            1000,
+            5000
+          ],
+          "ARS": [
+            100,
+            50,
+            500,
+            1000,
+            5000
+          ],
+          "BGN": [
+            5,
+            10,
+            25,
+            50,
+            100
+          ],
+          "XOF": [
+            25,
+            100,
+            500,
+            1000,
+            5000
+          ],
+          "XAF": [
+            100,
+            500,
+            1000,
+            2000,
+            5000
+          ],
+          "ZMW": [
+            5,
+            10,
+            30,
+            50,
+            100
+          ]
+        },
+        "oddsFormat": 1,
+        "coupon": {
+          "tax": {
+            "enabled": false,
+            "strategyType": null,
+            "size": 0,
+            "mainTaxRefund": false,
+            "exciseTaxSize": 0,
+            "minOddWhenTaxApplied": 0
+          }
+        },
+        "realTimeIncomingBets": {
+          "enabled": false,
+          "minHighRollersStake": null,
+          "eventAmount": 0,
+          "minSingleOdd": null,
+          "minSingleStake": null,
+          "maxSingleStake": null,
+          "minMultiOdd": null,
+          "minMultiStake": null,
+          "maxMultiStake": null
+        },
+        "incomingBets": {
+          "enabled": false,
+          "minHighRollersStake": null,
+          "minSingleOdd": null,
+          "minSingleStake": null,
+          "maxSingleStake": null,
+          "minMultiOdd": null,
+          "minMultiStake": null,
+          "maxMultiStake": null,
+          "eventAmount": 20,
+          "autoUpdate": 20000,
+          "showUsersLastBets": false,
+          "usersLastBetsAmount": 3
+        },
+        "oddsBoosterEnabled": true,
+        "liveSportContentEnabled": true,
+        "prematchSportContentEnabled": true,
+        "forecastVersion": "v2",
+        "bffEnabled": false,
+        "maxPayoutLimitEnabled": true
+      },
+      "casino": {
+        "showTopWinners": false,
+        "enabled": true,
+        "liveEnabled": true,
+        "playersOnline": {
+          "enabledOnWeb": false,
+          "enabledOnMobApp": false,
+          "enabledRandomization": false
+        },
+        "rtp": {
+          "enabled": false,
+          "period": "86400000"
+        }
+      },
+      "termsAcceptRequired": true,
+      "pgw": {
+        "merchant_id": "2e7e67bd-cad6-4161-9780-fb9f17e333a6",
+        "widget_countries": [
+          "AF",
+          "AX",
+          "AL",
+          "DZ",
+          "AS",
+          "AD",
+          "AO",
+          "AI",
+          "AQ",
+          "AG",
+          "AR",
+          "AM",
+          "AW",
+          "AU",
+          "AT",
+          "AZ",
+          "BS",
+          "BH",
+          "BD",
+          "BB",
+          "BY",
+          "BE",
+          "BZ",
+          "BJ",
+          "BM",
+          "BT",
+          "BO",
+          "BQ",
+          "BA",
+          "BW",
+          "BV",
+          "BR",
+          "IO",
+          "BN",
+          "BG",
+          "BF",
+          "BI",
+          "CV",
+          "KH",
+          "CM",
+          "CA",
+          "KY",
+          "CF",
+          "TD",
+          "CL",
+          "CN",
+          "CX",
+          "CC",
+          "CO",
+          "KM",
+          "CD",
+          "CG",
+          "CK",
+          "CR",
+          "CI",
+          "HR",
+          "CU",
+          "CW",
+          "CY",
+          "CZ",
+          "DK",
+          "DJ",
+          "DM",
+          "DO",
+          "EC",
+          "EG",
+          "SV",
+          "GQ",
+          "ER",
+          "EE",
+          "ET",
+          "FK",
+          "FO",
+          "FJ",
+          "FI",
+          "FR",
+          "GF",
+          "PF",
+          "TF",
+          "GA",
+          "GM",
+          "GE",
+          "DE",
+          "GH",
+          "GI",
+          "GR",
+          "GL",
+          "GD",
+          "GP",
+          "GU",
+          "GT",
+          "GG",
+          "GN",
+          "GW",
+          "GY",
+          "HT",
+          "HM",
+          "VA",
+          "HN",
+          "HK",
+          "HU",
+          "IS",
+          "IN",
+          "ID",
+          "IR",
+          "IQ",
+          "IE",
+          "IM",
+          "IL",
+          "IT",
+          "JM",
+          "JP",
+          "JE",
+          "JO",
+          "KZ",
+          "KE",
+          "KI",
+          "KP",
+          "KR",
+          "KW",
+          "KG",
+          "LA",
+          "LV",
+          "LB",
+          "LS",
+          "LR",
+          "LY",
+          "LI",
+          "LT",
+          "LU",
+          "MO",
+          "MK",
+          "MG",
+          "MW",
+          "MY",
+          "MV",
+          "ML",
+          "MT",
+          "MH",
+          "MQ",
+          "MR",
+          "MU",
+          "YT",
+          "MX",
+          "FM",
+          "MD",
+          "MC",
+          "MN",
+          "ME",
+          "MS",
+          "MA",
+          "MZ",
+          "MM",
+          "NA",
+          "NR",
+          "NP",
+          "NL",
+          "NC",
+          "NZ",
+          "NI",
+          "NE",
+          "NG",
+          "NU",
+          "NF",
+          "MP",
+          "NO",
+          "OM",
+          "PK",
+          "PW",
+          "PS",
+          "PA",
+          "PG",
+          "PY",
+          "PE",
+          "PH",
+          "PN",
+          "PL",
+          "PT",
+          "PR",
+          "QA",
+          "RE",
+          "RO",
+          "RU",
+          "RW",
+          "BL",
+          "SH",
+          "KN",
+          "LC",
+          "MF",
+          "PM",
+          "VC",
+          "WS",
+          "SM",
+          "ST",
+          "SA",
+          "SN",
+          "RS",
+          "SC",
+          "SL",
+          "SG",
+          "SX",
+          "SK",
+          "SI",
+          "SB",
+          "SO",
+          "ZA",
+          "GS",
+          "SS",
+          "ES",
+          "LK",
+          "SD",
+          "SR",
+          "SJ",
+          "SZ",
+          "SE",
+          "CH",
+          "SY",
+          "TW",
+          "TJ",
+          "TZ",
+          "TH",
+          "TL",
+          "TG",
+          "TK",
+          "TO",
+          "TT",
+          "TN",
+          "TR",
+          "TM",
+          "TC",
+          "TV",
+          "UG",
+          "UA",
+          "AE",
+          "GB",
+          "UM",
+          "US",
+          "UY",
+          "UZ",
+          "VU",
+          "VE",
+          "VN",
+          "VG",
+          "VI",
+          "WF",
+          "EH",
+          "YE",
+          "ZM",
+          "ZW",
+          "SZ",
+          "AB",
+          "OS",
+          "CI",
+          "XK",
+          "OT"
+        ]
+      },
+      "limits": {
+        "deposit": true,
+        "loss": false,
+        "session": false,
+        "balance": false,
+        "singleBet": true,
+        "wagerPerPeriod": true
+      },
+      "integrations": {
+        "neccton": {
+          "picBaseHost": "https://pic-tonybet.mentor.neccton.com/"
+        }
+      },
+      "config": {
+        "projectName": "tonybetlv",
+        "defaultCurrency": "EUR",
+        "sessionTimer": true,
+        "bonusesEnabled": true,
+        "responsibleGamingTools": false,
+        "refProgramEnabled": false,
+        "smarticoEnabled": false,
+        "gamixterEnabled": false,
+        "cryptoCurrencyEnabled": false,
+        "limits": {
+          "disablable": {
+            "singleBet": true,
+            "wagerPerPeriod": true
+          },
+          "inactivityLogoutPeriod": null,
+          "questionnaireEnabled": false,
+          "balanceResidualLimitVersion": 1,
+          "forceActionsEnabled": true,
+          "selfExclusionEnabled": true,
+          "timeoutLimitEnabled": false,
+          "selfDeleteEnabled": false,
+          "selfCoolingOffEnabled": false,
+          "lockLimitsEnabled": true,
+          "netDepositLimitEnabled": false,
+          "netDepositTresholdInBaseCurrency": 700,
+          "netDepositTresholdYoungInBaseCurrency": 300,
+          "bluemRgSmartAssistantEnabled": false
+        },
+        "registration": {
+          "countries": [
+            {
+              "hasProvince": 0,
+              "hasFiscalRegions": 0,
+              "needConfirmationModal": false,
+              "hasPromoCodes": false,
+              "id": 123,
+              "code": "428",
+              "name": "Latvia",
+              "alpha_2": "LV",
+              "alpha_3": "LVA",
+              "dialCode": "371",
+              "languageId": "95",
+              "currencyId": "EUR",
+              "flagUrl": {
+                "square": "https://d91pit83i9avf.cloudfront.net/flags/lv.png",
+                "rectangle": "https://d91pit83i9avf.cloudfront.net/flags/lv.svg"
+              },
+              "isActive": 1,
+              "isActiveDesktop": null,
+              "isActiveMobile": null,
+              "requiredRegistrationSmsVerification": 0,
+              "blocked": 0,
+              "isBlockedDesktop": 0,
+              "isBlockedMobile": 0,
+              "isBlockedCasino": 0,
+              "isBlockedPromotions": 0,
+              "isBlockedVip": 0,
+              "usePgwWidget": 1,
+              "usePiqWidget": 0,
+              "racingEnabledForGeo": 0,
+              "reviewUsers": 0,
+              "requiredAge": 18,
+              "bonusPicker": {
+                "displayBonus": true
+              }
+            }
+          ],
+          "forms": {
+            "default": [
+              {
+                "name": "bonusType"
+              },
+              {
+                "name": "country"
+              },
+              {
+                "name": "email"
+              },
+              {
+                "name": "emailCode"
+              },
+              {
+                "name": "password"
+              },
+              {
+                "name": "currency"
+              },
+              {
+                "name": "name"
+              },
+              {
+                "name": "surname"
+              },
+              {
+                "name": "latvianPersonalID"
+              },
+              {
+                "name": "gender"
+              },
+              {
+                "name": "dob"
+              },
+              {
+                "name": "street"
+              },
+              {
+                "name": "postcode"
+              },
+              {
+                "name": "city"
+              },
+              {
+                "name": "prefix"
+              },
+              {
+                "name": "phone"
+              },
+              {
+                "name": "limits",
+                "default": {
+                  "type": "wagerPerPeriod",
+                  "index": 1
+                },
+                "items": {
+                  "singleBet": [
+                    {
+                      "text": "site_._platform_._single stake limit",
+                      "defaultAmount": {
+                        "EUR": 50000
+                      }
+                    }
+                  ],
+                  "wagerPerPeriod": [
+                    {
+                      "text": "site_._platform_._overall stake limit",
+                      "defaultAmount": {
+                        "EUR": 50000
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "promotion"
+              }
+            ]
+          },
+          "isBTagRequired": false,
+          "duplicateBonusValidation": true,
+          "dobValidation": false,
+          "showPersonalCodeToggler": {
+            "active": false,
+            "exceptCountries": []
+          },
+          "showHouseForCountries": [],
+          "mobileFormType": 2,
+          "isBrasilRegFormRequired": false,
+          "resendTimers": {
+            "phone": 60,
+            "mail": 60
+          },
+          "cyrillicValidation": true,
+          "isGviveCheckRequired": false,
+          "topBluemFlowEnabled": false,
+          "oneStepForm": {
+            "active": false,
+            "exceptCountries": []
+          },
+          "postcoder": {
+            "active": false,
+            "countries": []
+          }
+        },
+        "authorisation": {
+          "isFitToPlayRequired": false,
+          "abnormalLoginBehaviorDto": {
+            "enabled": false,
+            "loginCount": 3,
+            "period": 30
+          },
+          "authProviders": {
+            "LV": [
+              3,
+              1,
+              5
+            ]
+          }
+        },
+        "websockets": {
+          "useSockets": true
+        },
+        "paymentiq": {
+          "countries": []
+        },
+        "sport": {
+          "hideLiveEvents": false,
+          "comboBoostsEnabled": true,
+          "comboBoostMobileEnabled": false,
+          "liveBetsEnabled": true,
+          "liveOddsEnabled": true,
+          "cashoutEnabled": true,
+          "fullCashoutEnabled": false,
+          "betBoosterEnabled": false,
+          "betSharingEnabled": false,
+          "favoriteEnabled": false,
+          "pinEnabled": false,
+          "betBuilderEnabled": false,
+          "racing": {
+            "racingEnabled": false,
+            "client": null,
+            "env": null,
+            "platformUrl": null,
+            "viewType": "component",
+            "latrobetSessionApiUrl": "",
+            "companyName": "Test",
+            "pusherKey": null,
+            "betPlacementUrl": null,
+            "availableCurrencies": []
+          },
+          "betBuilder": null
+        },
+        "cabinet": {
+          "datapickerHistoryPeriodInDays": [
+            "90",
+            "30",
+            "120"
+          ]
+        },
+        "emailHints": {
+          "default": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@outlook.com",
+            "@icloud.com",
+            "@yahoo.com"
+          ],
+          "BR": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@outlook.com",
+            "@icloud.com",
+            "@yahoo.com.br",
+            "@yahoo.com",
+            "@live.com"
+          ],
+          "DE": [
+            "@gmail.com",
+            "@web.de",
+            "@gmx.de",
+            "@icloud.com",
+            "@yahoo.com",
+            "@hotmail.com",
+            "@hotmail.de",
+            "@outlook.de",
+            "@yahoo.de",
+            "@googlemail.com"
+          ],
+          "AU": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@outlook.com",
+            "@icloud.com",
+            "@yahoo.com",
+            "@yahoo.com.au",
+            "@live.com.au",
+            "@live.com"
+          ],
+          "GR": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@yahoo.gr",
+            "@yahoo.com",
+            "@hotmail.gr",
+            "@outlook.com",
+            "@icloud.com",
+            "@windowslive.com",
+            "@outlook.com.gr"
+          ],
+          "ES": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@hotmail.es",
+            "@icloud.com",
+            "@yahoo.com",
+            "@yahoo.es",
+            "@outlook.es",
+            "@outlook.com"
+          ],
+          "PL": [
+            "@gmail.com",
+            "@wp.pl",
+            "@o2.pl",
+            "@interia.pl",
+            "@op.pl",
+            "@onet.pl",
+            "@icloud.com",
+            "@vp.pl",
+            "@tlen.pl"
+          ],
+          "PT": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@sapo.pt",
+            "@live.com.pt",
+            "@outlook.pt",
+            "@icloud.com",
+            "@outlook.com",
+            "@yahoo.com"
+          ],
+          "CA": [
+            "@gmail.com",
+            "@hotmail.com",
+            "@outlook.com",
+            "@yahoo.com",
+            "@icloud.com",
+            "@yahoo.ca",
+            "@hotmail.ca",
+            "@live.ca"
+          ],
+          "AT": [
+            "@gmail.com",
+            "@gmx.at",
+            "@hotmail.com",
+            "@icloud.com",
+            "@yahoo.com",
+            "@outlook.com",
+            "@gmx.net",
+            "@lve.at",
+            "@yahoo.de"
+          ],
+          "CZ": [
+            "@seznam.cz",
+            "@gmail.com",
+            "@email.cz",
+            "@centrum.cz",
+            "@icloud.com",
+            "@post.cz",
+            "@atlas.cz",
+            "@yahoo.com",
+            "@hotmail.com"
+          ]
+        },
+        "requiredFieldsFromCashier": false
+      }
+    }
+  }
